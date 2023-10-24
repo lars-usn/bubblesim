@@ -19,7 +19,7 @@ An example of program operation is shown below. The left image is the graphical 
 
 ![Menu image](BubblesimMenuSmall.png)  ![Result image](BubblesimResultSmall.png)
 
-#Documentation and Download
+# Documentation and Download
 - Instructions for installation and brief description of operation: Readme-file as pdf-document (140 KB) or as plain text-file (9 KB)
 - Download Bubblesim as zip-file. (150 KB). The program consists of a collection of m-files written for Matlab, version 5.2 or above (The MathWorks Inc.)
 - A brief description summarizing my approach to bubble and contrast agent simulation is found in the abstract presented at The Leading Edge in Diagnostic Ultrasound in Atlantic City, NJ, 8 May 2001. The abstract as pdf-document is found here (18 KB). This document also includes several relevant references.
