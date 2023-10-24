@@ -18,3 +18,18 @@ Please be aware that this program is very experimental, and the documentation is
 An example of program operation is shown below. The left image is the graphical user interface used to specify bubble, pulse and calculation parameters. The right image shows the results of the simulation, containing the driving ultrasound pulse, the bubble radius and scattered sound pulse in the time domain, and the power spectra of the driving pulse and of the scattered sound.
 
 ![Menu image](BubblesimMenuSmall.png)  ![Result image](BubblesimResultSmall.png)
+
+## Documentation and Download
+- Instructions for installation and brief description of operation: Readme-file as [pdf-document](/Documentation/Readme.pdf) (140 KB) or as [plain text-file](/Documentation/Readme.txt) (9 KB)
+- Download Bubblesim as zip-file. (150 KB). The program consists of a collection of m-files written for Matlab, version 5.2 or above (The MathWorks Inc.)
+- A brief description summarizing my approach to bubble and contrast agent simulation is found in the abstract presented at The Leading Edge in Diagnostic Ultrasound in Atlantic City, NJ, 8 May 2001. The abstract as pdf-document is found [here](/Documentation/abstract-leading-edge-diagnostic-ultrasound-2001.pdf) (18 KB). This document also includes several relevant references.
+- A full desription of the theoretical models and some experimental data is found in the book “Acoustic Characterization of Contrast Agents for Medical Ultrasound Imaging”, Lars Hoff, Kluwer Academic Publishers, 2001. ISBN 1-4020-0144-4.
+- A reference to a method used to estimate shell parameters is found in Hoff, Sontum and Hovem, “Oscillations of polymeric microbubbles: Effect of the encapsulating shell” J. Acoust. Soc. Am.  107, 2272-2280, (2000).
+
+# Acknowledgment
+Bubblesim was developed in collaboration with the  [Acoustics Group](https://www.ntnu.edu/ies/acoustics-group) at the Department of Telecommunications and with the [Department of Circulation and Medical Imaging](https://www.ntnu.edu/isb), both at [NTNU](https://www.ntnu.no), the Norwegian University of Science and Technology, in Trondheim, Norway. We also appreciate the collaboration with and support from Amersham Health, former Nycomed Imaging, in Oslo, Norway.
+
+# Contact
+Since 2003, I am employed at the [University of South-Eastern Norway](https://www.usn.no/english/about/contact-us/employees/lars-hoff) in Horten, Norway
+
+Comments, questions or suggestions: Contact: [lars.hoff@usn.no](mailto:lars.hoff@usn.no).
