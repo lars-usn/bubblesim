@@ -17,4 +17,4 @@ Please be aware that this program is very experimental, and the documentation is
 ## Examples of use
 An example of program operation is shown below. The left image is the graphical user interface used to specify bubble, pulse and calculation parameters. The right image shows the results of the simulation, containing the driving ultrasound pulse, the bubble radius and scattered sound pulse in the time domain, and the power spectra of the driving pulse and of the scattered sound.
 
-!(BubblesimMenuSmall.png)
+![Menu image](BubblesimMenuSmall.png)  ![Result image](BubblesimResultSmall.png)
