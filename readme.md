@@ -29,7 +29,7 @@ An example of program operation is shown below. The left image is the graphical 
 # Acknowledgment
 Bubblesim was developed in collaboration with the Acoustics Group at the Department of Telecommunications and with the Department of Physiology and Biomedical Engineering , both at NTNU, the Norwegian University of Science and Technology, in Trondheim, Norway. We also appreciate the collaboration with and support from Amersham Health, former Nycomed Imaging, in Oslo, Norway.
 
-#Contact
-Since 2003, I am employed at the Universitu of South-Eastern Norway in Horten, Norway
+# Contact
+Since 2003, I am employed at the [University of South-Eastern Norway](https://www.usn.no/english/about/contact-us/employees/lars-hoff) in Horten, Norway
 
 Comments, questions or suggestions: Contact: [lars.hoff@usn.no](mailto:lars.hoff@usn.no).
