@@ -214,4 +214,6 @@ FILE NAMING CONVENTION
 stored in a file named 'CS20010625_015.mat'.
 
 
+=======
+>>>>>>> 3ce232d368590643dfdc6ce66d530d583ca01cc6
 
