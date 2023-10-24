@@ -1,109 +1,29 @@
-<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.0 transitional//en">
-<html>
-<head>
-  <meta http-equiv="Content-Type"
- content="text/html; charset=iso-8859-1">
-  <meta name="GENERATOR"
- content="Mozilla/4.72 [en] (Win95; I) [Netscape]">
-  <title>Ultrasound Contrast Bubble Simulation</title>
-</head>
-<body>
-<h1> Ultrasound Contrast Bubble Simulation</h1>
-<h3><span style="font-style: italic;">Bubblesim</span> Overview</h3>
-<ul>
-  <li><em><span style="font-weight: bold;"></span></em>Simulator for
-estimating the radial oscillation and scattered sound from an
-ultrasound contrast bubble. <br>
-  </li>
-  <li>Implemented as a toolbox in MATLAB. <br>
-  </li>
-  <li>Updated and tested in Matlab ver. 7.0, originally written for
-Matlab 5.2<br>
-  </li>
-  <li>Developed
-as a part of my doctoral studies at NTNU, The Norwegian University of
-Science
-and Technology.</li>
-  <li>Main application is to simulate contrast agents for medical
-ultrasound imaging</li>
-  <li>Designed for micrometer-sized bubbles exposed to
-Megahertz-frequency ultrasound. <br>
-  </li>
-  <li>Only the radial oscillation mode is included, i.e. the
-oscillation is spherically symmetric. <br>
-  </li>
-  <li>Nonlinear terms are fully included, the response is calculated by
-simulating an ODE in the time domain. <br>
-  </li>
-  <li>Shell is included by a viscoelastic material model. Thickness and
-viscoelastic parameters of the shell must be specified by the user.</li>
-</ul>
-<h3>Warning</h3>
-<p>Please be aware that this program is very experimental, and the
-documentation is not as extensive as it should be. <br>
-</p>
-<h3>Example of use<br>
-</h3>
-<p>An example of program
-operation is shown below. The left image is the graphical user
-interface
-used to specify bubble, pulse and calculation parameters. The right
-image
-shows the results of the simulation, containing the driving ultrasound
-pulse,
-the bubble radius and scattered sound pulse in the time domain, and the
-power
-spectra of the driving pulse and of the scattered sound. Click on one
-of
-the images to get a full-size view.</p>
-<p><a href="BubblesimMenu.htm"><img src="BubblesimMenuSmall.png"
- alt="Result of Bubblesim calculation" align="top" height="375"
- width="356">
-</a><a href="BubblesimResult.htm"><img src="BubblesimResultSmall.png"
- alt="Result of Bubblesim calculation" align="top" height="340"
- width="389"></a></p>
-<h3> Documentation and Download</h3>
-<ul>
-  <li> Instructions for installation and brief description of
-operation: <i>Readme</i>-file<i> </i>as <a href="Readme.pdf">pdf-document
-    </a> (140 KB) or as <a href="Readme.txt">plain text-file</a> (9 KB)</li>
-  <li><a href="Bubblesim.zip"> Download Bubblesim</a> as zip-file. (150
-KB). The program consists of a collection of <em>m-files</em> written
-for Matlab, version 5.2 or above (<i>The MathWorks Inc.</i>)</li>
-  <li> A brief description summarizing my approach to bubble and
-contrast agent simulation is found in the abstract presented at <em>The
-Leading Edge in Diagnostic Ultrasound</em> in Atlantic City, NJ, 8 May
-2001. The abstract as pdf-document is found <a
- href="AbstractLeadingEdge.PDF">here</a> (18 KB). This document also
-includes several relevant references.</li>
-  <li>A full desription of the theoretical models and some experimental
-data is found in the book &#8220;Acoustic Characterization of Contrast Agents
-for Medical Ultrasound Imaging&#8221;, Lars Hoff, Kluwer Academic Publishers,
-2001. ISBN 1-4020-0144-4.</li>
-  <li>A reference to a method used to estimate shell parameters is
-found in Hoff, Sontum and Hovem, &#8220;Oscillations of polymeric
-microbubbles: Effect of the encapsulating shell&#8221; J. Acoust. Soc.
-Am.&nbsp; 107, 2272-2280, (2000).<br>
-  </li>
-</ul>
-<h3> Acknowledgment</h3>
-<em>Bubblesim</em> was developed in collaboration with the <a
- href="http://www.tele.ntnu.no/akustikk/index.html"> Acoustics Group</a>
-at the <a href="http://www.tele.ntnu.no/index_e.html">Department of
-Telecommunications</a> and with the <a
- href="http://www.medisin.ntnu.no/isb/eng/">Department of Physiology
-and Biomedical Engineering</a> , both at <a href="http://www.ntnu.no">NTNU</a>,
-the Norwegian University of Science and Technology, in Trondheim,
-Norway. We also appreciate the collaboration with and support from <a
- href="http://www.amersham.com/">Amersham Health</a>, former Nycomed
-Imaging, in Oslo, Norway.
-<h3>Contact</h3>
-<p>Since 2003, I am employed at <a href="http://www.hive.no">Vestfold
-University College</a>, in Horten, Norway</p>
-<p>Comments, questions or suggestions: Contact:<a
- href="mailto:lars.hoff@hive.no"> lars.hoff@hive.no.</a></p>
-<p>Oslo, June 2007<br>
-Lars Hoff</p>
-<p><i><small>Latest update: </small></i><font size="2"><i>6 June 2007</i></font></p>
-</body>
-</html>
+Ultrasound Contrast Bubble Simulation
+Bubblesim Overview
+
+- Simulator for estimating the radial oscillation and scattered sound from an ultrasound contrast bubble.
+- Implemented as a toolbox in MATLAB.
+- Updated and tested in Matlab ver. 7.0, originally written for Matlab 5.2
+- Developed as a part of my doctoral studies at NTNU, The Norwegian University of Science and Technology.
+- Main application is to simulate contrast agents for medical ultrasound imaging
+- Designed for micrometer-sized bubbles exposed to Megahertz-frequency ultrasound.
+- Only the radial oscillation mode is included, i.e. the oscillation is spherically symmetric.
+- Nonlinear terms are fully included, the response is calculated by simulating an ODE in the time domain.
+- Shell is included by a viscoelastic material model. Thickness and viscoelastic parameters of the shell must be specified by the user.
+
+Warning
+Please be aware that this program is very experimental, and the documentation is not as extensive as it should be.
+
+Documentation and Download
+- Instructions for installation and brief description of operation are found in  the Documentation-folder: Readme-file as pdf-document (140 KB) or as plain text-file (9 KB)
+- The actual software is in the 'Bubblesim' folder. The program consists of a collection of m-files written for Matlab, version 5.2 or above (The MathWorks Inc.)
+- A brief description summarizing my approach to bubble and contrast agent simulation is found in the abstract presented at The Leading Edge in Diagnostic Ultrasound in Atlantic City, NJ, 8 May 2001. The abstract as pdf-document is found in the Documentation folder. This document also includes several relevant references.
+- A full desription of the theoretical models and some experimental data is found in the book “Acoustic Characterization of Contrast Agents for Medical Ultrasound Imaging”, Lars Hoff, Kluwer Academic Publishers, 2001. ISBN 1-4020-0144-4.
+- A reference to a method used to estimate shell parameters is found in Hoff, Sontum and Hovem, “Oscillations of polymeric microbubbles: Effect of the encapsulating shell” J. Acoust. Soc. Am.  107, 2272-2280, (2000).
+
+Acknowledgment
+Bubblesim was developed in collaboration with the Acoustics Group at the Department of Telecommunications and with the Department of Physiology and Biomedical Engineering , both at NTNU, the Norwegian University of Science and Technology, in Trondheim, Norway. We also appreciate the collaboration with and support from Amersham Health, former Nycomed Imaging, in Oslo, Norway.
+
+Contact
+Since 2003, I am employed at te University of South-Eastern Norway, , in Horten, Norway
+Comments, questions or suggestions: Contact: lars.hoff@usn.no
