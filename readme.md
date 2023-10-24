@@ -27,7 +27,7 @@ An example of program operation is shown below. The left image is the graphical 
 - A reference to a method used to estimate shell parameters is found in Hoff, Sontum and Hovem, “Oscillations of polymeric microbubbles: Effect of the encapsulating shell” J. Acoust. Soc. Am.  107, 2272-2280, (2000).
 
 # Acknowledgment
-Bubblesim was developed in collaboration with the Acoustics Group at the Department of Telecommunications and with the Department of Physiology and Biomedical Engineering , both at [NTNU](www.ntnu.no), the Norwegian University of Science and Technology, in Trondheim, Norway. We also appreciate the collaboration with and support from Amersham Health, former Nycomed Imaging, in Oslo, Norway.
+Bubblesim was developed in collaboration with the Acoustics Group at the Department of Telecommunications and with the Department of Physiology and Biomedical Engineering , both at [NTNU](https://www.ntnu.no), the Norwegian University of Science and Technology, in Trondheim, Norway. We also appreciate the collaboration with and support from Amersham Health, former Nycomed Imaging, in Oslo, Norway.
 
 # Contact
 Since 2003, I am employed at the [University of South-Eastern Norway](https://www.usn.no/english/about/contact-us/employees/lars-hoff) in Horten, Norway
